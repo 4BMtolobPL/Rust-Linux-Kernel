@@ -1,0 +1,1 @@
+/home/kimtalmo/workspace/kimtalmo/rust-linux-kernel/rust-linux-kernel-09-04-shared-memory/sharedmem_reader/target/debug/sharedmem_reader: /home/kimtalmo/workspace/kimtalmo/rust-linux-kernel/rust-linux-kernel-09-04-shared-memory/sharedmem_reader/src/main.rs
