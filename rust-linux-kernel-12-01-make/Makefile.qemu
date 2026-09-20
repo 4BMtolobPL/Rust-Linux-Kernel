@@ -1,0 +1,7 @@
+obj-m += hello_world.o
+
+all:
+	make -C /root/Rust_Testing/Rust/linux M=$(PWD) modules
+	
+clean:
+	make -C /root/Rust_Testing/Rust/linux M=$(PWD) clean
