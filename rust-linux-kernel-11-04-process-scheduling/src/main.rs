@@ -15,7 +15,7 @@ fn main() {
             let param = sched_param {
                 sched_priority: priority,
             };
-            let result = unsafe { sched_setscheduler(child.into(), libc::SCHED_RR, &param) };
+            let _result = unsafe { sched_setscheduler(child.into(), libc::SCHED_RR, &param) };
         }
         Ok(ForkResult::Child) => {
             let pid = getpid();
